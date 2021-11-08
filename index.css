@@ -1,14 +1,79 @@
 body {
     margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.9em;
 
 }
 
 h1 {
     color: #2D2C3A;
-    font-size: 4em;
 }
 
-.title {
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    border: 1px red solid;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+
+}
+.titlegreen {
     color: #8AD7BC;
-    font-size: 2em;
+    font-size: 2.5em;
+}
+
+.titleblack {
+    color: #2D2C3A;
+    font-size: 2.5em;
+}
+
+.container {
+    margin-left: 5em;
+    margin-top: 10em;
+}
+
+.topnav {
+    display: flex;
+    border: 1px red solid;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.card {
+    width: 25%;
+    border: 1px red solid;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid #2D2C3A;
+}
+
+.cardContainer {
+    display: flex;
+}
+
+.cardTitle {
+    font-size: 1.8em;
+    color: #2D2C3A;
+    font-weight: 500;
+}
+
+.cardTechstack {
+    font-size: 1.2em;
+    color: #2D2C3A;
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
 }
