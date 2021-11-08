@@ -10,15 +10,18 @@ h1 {
 }
 
 ul {
+    
+    display: flex;
     list-style-type: none;
     padding: 0;
     margin: 0;
-    overflow: hidden;
 }
 
 li {
-    border: 1px red solid;
-    float: right;
+    padding: 0;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 1.2em;
 }
 
 a {
@@ -28,9 +31,7 @@ a {
 li a {
     display: block;
     color: #2D2C3A;
-    text-align: center;
-    padding: 10px;
-    font-size: 1.2em;
+    
   }
 
   li a:hover {
@@ -60,7 +61,8 @@ h2 {
 
 .topnav {
     display: flex;
-    border: 1px red solid;
+    margin-left: 3em;
+    margin-top: 1em;
 }
 
 .card {
@@ -96,4 +98,8 @@ h2 {
 
 .footer li {
     color: white;
+}
+
+heading img {
+    margin-right: 80em;
 }
