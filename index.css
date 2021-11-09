@@ -15,10 +15,15 @@ ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    float: right;
+}
+
+footer ul {
+    width: 100%;
 }
 
 li {
-    padding: 0;
+    padding: 15px;
     margin-top: 50px;
     margin-right: 20px;
     font-size: 1.2em;
@@ -34,8 +39,8 @@ li a {
     
   }
 
-  li a:hover {
-    border-bottom: 3px solid #8ad7BC;
+li a:hover {
+    color: #8ad7BC;
   }
 
 h2 {
@@ -92,14 +97,15 @@ h2 {
 .footer {
     display: flex;
     background-color: #2D2C3A;
-    padding: 10px;
+    margin: 0;
     
 }
 
-.footer li {
+footer a {
     color: white;
+    font-size: 0.6em;
 }
 
-heading img {
-    margin-right: 80em;
+nav {
+    padding: 60px;
 }
