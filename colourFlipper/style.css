@@ -1,3 +1,32 @@
 body {
     background-color: #f1f5f8;
+    font-size: 16px;
+    margin:0;
+    color: #233d4d;
 }
+
+btn-hero {
+    border-color: #233d4d;
+    padding: 3px;
+}
+
+h4 {
+    color: #fe7f2d;
+    font-size: 2.2em;
+}
+
+nav-center {
+    background-color: #233d4d;
+    padding: 5px;
+}
+
+
+
+
+
+/* Object
+/*{"Charcoal":"233d4d",
+    "Pumpkin":"fe7f2d",
+    "Sunglow":"fcca46",
+    "Olivine":"a1c181",
+    "Polished Pine":"619b8a"}
