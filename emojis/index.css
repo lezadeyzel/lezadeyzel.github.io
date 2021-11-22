@@ -5,12 +5,13 @@ html {
 
 body {
     padding: 10px;
-    background-image: linear-gradient(#f07167, #FFF);
+    background-image: linear-gradient(to bottom, #fdfcdc, #f5dfaf, #f3be89, #f39970, #f07167);
     text-align: center;
+    margin-top: 100px;
 }
 
 a {
-    color: pink;
+    color: #0081a7;
 }
 
 #emoji-container {
@@ -34,7 +35,7 @@ a {
 h1 {
     letter-spacing: 2px;
     text-align: center;
-    color: white;
+    color: #f07167;
     font-size: 3em;
 }
 
@@ -46,22 +47,22 @@ input {
     background: white;
     border-radius: 6px;
     text-align: center;
+    font-size: 1.4em;
+    padding: 20px;
 }
 
 button {
-    font-family: Baloo;
-    letter-spacing: px;
-    background: darkcyan;
     color: white;
     border: none;
-    padding: 4px 10px;
+    padding: 8px 20px;
     border-radius: 6px;
     margin: 0 4px;
+    font-size: 1.2em;
 }
 
 .buttons-wrapper {
     display: flex;
     justify-content: center;
-    margin: 10px 0 40px;
+    margin: 10px 0 23px;
 }
 
