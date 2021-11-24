@@ -1,0 +1,26 @@
+body,
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+button {
+    background: #FE7B72;
+    padding: 15px 28px;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#modal {
+    margin: 0 auto;
+    padding: 20px;
+    height: 200px;
+    max-width: 600px;
+    background: #FDC3BE;
+}
