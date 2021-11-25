@@ -18,9 +18,23 @@ button {
 }
 
 #modal {
+    position: relative;
     margin: 0 auto;
     padding: 20px;
     height: 200px;
     max-width: 600px;
     background: #FDC3BE;
+    top: 30%;
 }
+
+#overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
