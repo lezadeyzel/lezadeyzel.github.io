@@ -15,7 +15,6 @@ document.getElementById("searchInput").addEventListener("keyup", function(event)
         const currentName = allNamesDOMCollection[counter].textContent.toLowerCase()
         
         if (currentName.includes(searchQuery)) {
-        //console.log("search query is equal to currentName")
         allNamesDOMCollection[counter].style.display="block"
         
     } else

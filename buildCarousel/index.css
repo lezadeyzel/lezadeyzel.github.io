@@ -33,6 +33,7 @@ the edges of the slides, but adequately spaced
     width: 100%;
     max-width: 600px;
     height: auto;
+    max-height: 400px;
 }
 
 .carousel .carousel-actions {
